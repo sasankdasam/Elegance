@@ -1,0 +1,23 @@
+[
+    {
+        "title": "MARRIAGE",
+        "description": "Marriage is a formal union between individuals, typically recognized by law or cultural norms. It often involves a commitment to mutual support, love, and shared responsibilities.",
+        "image": "/assets/marriage.jpeg"
+    },
+    {
+        "title": "BIRTHDAY",
+        "description": "Birthdays mark the anniversary of a person's birth, celebrated annually. They are often a time for reflection, gratitude, and celebration with family and friends.",
+        "image": "/assets/birthday.jpg"
+    },
+    {
+        "title": "EXHIBITION",
+        "description": "An exhibition is a public display of items, artworks, or products, typically organized around a specific theme or topic. It can take place in venues like galleries, museums.",
+        "image": "/assets/exhibition.jpg"
+    },
+    {
+        "title": "GATHERINGS",
+        "description": "A get-together is an informal gathering of friends, family, or colleagues for socializing and enjoying each other's company.",
+        "image": "/assets/Gatherings.jpg"
+    }
+]
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <style>
+    .cloud-image {
+    position: absolute; 
+    top: -50px; 
+    right: -130px; 
+    width: 400px; 
+    height: auto; 
+    z-index: 10; 
+    overflow: hidden;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/assets/cloud.png" alt="Cloud" class="cloud-image">
+  </header>
+  <main>
+    <%- body %>
+  </main>
+</body>
+</html>

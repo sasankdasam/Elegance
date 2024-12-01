@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #27004C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.heading {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+
+.container {
+    background-color: rgba(157, 135, 180, 0.4);
+    border-radius: 25px;
+    padding: 20px;
+    width: 850px;
+    height:500px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form {
+    background-color: #7e6299;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.form-left, .form-right {
+    flex-basis: 48%;
+}
+
+.form-left {
+    padding-right: 20px;
+    font-weight: bolder;
+}
+
+.form-right {
+    padding-left: 20px;
+    font-weight: bolder;
+    margin-top: 4px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input[type="text"], 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+.contact-form input[type="tel"], 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.services label {
+    color: black;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-weight: lighter;
+}
+
+.submit-container {
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 313px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #27004C;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #2E0247;
+}
+
+.terms {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    text-decoration: underline;
+}
+
+form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background-color: #FFF;
+    height: 80%;
+    margin-top: 15px;
+}
+
+.cloud-image {
+    position: absolute; 
+    top: -50px; 
+    right: -130px; 
+    width: 400px; 
+    height: auto; 
+    z-index: 10; 
+    overflow: hidden;
+}

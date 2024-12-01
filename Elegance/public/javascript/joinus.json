@@ -1,0 +1,22 @@
+[
+    {
+        "name": "John Doe",
+        "contact": "1234567890",
+        "email": "john.doe@example.com",
+        "category": "music",
+        "location": "New York",
+        "experience": "5 years",
+        "about": "Expert in classical music",
+        "image": "path_to_image_or_base64_string"
+    },
+    {
+        "name": "Jane Smith",
+        "contact": "0987654321",
+        "email": "jane.smith@example.com",
+        "category": "photography",
+        "location": "Los Angeles",
+        "experience": "3 years",
+        "about": "Creative event photographer",
+        "image": "path_to_image_or_base64_string"
+    }
+]

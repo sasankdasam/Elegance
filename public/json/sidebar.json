@@ -1,0 +1,13 @@
+{
+    "menu": [
+        { "name": "Login", "link": "login.html", "icon": "/assets/loginbuttonper.png" },
+        { "name": "Join", "link": "joinus.html", "icon": "/assets/joinicon.png" },
+        { "name": "Services", "link": "services.html", "icon": "/assets/serviceicon.png" },
+        { "name": "About Us", "link": "aboutus.html", "icon": "/assets/aboutus.png" }
+    ],
+    "social": [
+        { "platform": "Facebook", "link": "https://www.facebook.com/", "icon": "/assets/facebook.png" },
+        { "platform": "Instagram", "link": "https://www.instagram.com/", "icon": "/assets/instagram.png" },
+        { "platform": "X", "link": "https://x.com/home", "icon": "/assets/X.png" }
+    ]
+}

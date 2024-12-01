@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #27004c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.outcont {
+    background-color: rgba(157, 135, 180, 0.3); 
+    padding: 25px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    width: 800px;
+    border-radius: 30px;
+}
+
+.join-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align to the left */
+    margin-bottom: 20px;
+}
+
+.joinicon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+h2 {
+    color: #000;
+    font-size: 24px;
+}
+
+.container {
+    background-color: #734d89;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.form-left, .form-right {
+    width: 48%;
+}
+
+.form-right {
+    margin-top: 2px;
+    margin-left: 20px;
+    padding-left: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: normal; /* Remove bold */
+    text-decoration: none; /* Remove underline */
+    text-align: left;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    background-color: #27004c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-left: 260px;
+}
+
+button:hover {
+    background-color: #220032;
+}
+
+.input-box {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-box input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    padding-right: 40px; /* Space for the icon */
+}
+
+.input-box i {
+    position: absolute;
+    right: 12px;
+    top: 33%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333; /* Icon color */
+    font-size: 18px;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cloud-image {
+    position: absolute;
+    top: -50px;
+    right: -130px;
+    width: 400px;
+    height: auto;
+    z-index: 10;
+}
+
+@media (max-width: 600px) {
+    .form-box {
+        flex-direction: column;
+    }
+
+    .form-left, .form-right {
+        width: 100%;
+        margin-left: 0; /* Remove margin for smaller screens */
+    }
+
+    button {
+        margin-left: 0; /* Align the button to center */
+    }
+}
+
+select {
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Experience Input Field Styling */
+input[type="number"]#experience {
+    width: 100%;
+    padding: 10px; /* Consistent padding with other input fields */
+    border-radius: 5px; /* Consistent border radius */
+    border: 1px solid #ccc; /* Standard border */
+    margin-bottom: 20px; /* Spacing below the input */
+    outline: none; /* Remove outline */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+}
+
+/* Focus styling for experience input */
+input[type="number"]#experience:focus {
+    border-color: #734d89; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(115, 77, 137, 0.5); /* Shadow effect on focus */
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Now</title>
+    <link rel="stylesheet" href="/css/contactus.css">
+</head>
+<body>
+    <img src="/assets/cloud.png" alt="Cloud" class="cloud-image">
+    <div class="container">
+        <h2 class="heading">Contact Us</h2> 
+        <div class="contact-form">
+            <form id="contactForm">
+                <div class="form-left">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                    <label for="contact">Contact Number</label>
+                    <input type="tel" id="contact" name="contact" placeholder="Enter your contact number">
+                
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="Your Location">
+                </div>
+
+                <div class="form-right">
+                    <label for="queries">Additional Queries</label>
+                    <textarea id="queries" name="queries" placeholder="Write any additional queries here"></textarea>
+                </div>
+
+                <div class="submit-container">
+                    <button type="button" onclick="submitContactForm()">Submit</button>
+                </div>
+            </form>
+        </div>
+        <p class="terms">
+            <a href="/assets/Elegance_and_Co_Terms_and_Conditions.docx" target="_blank">T&C Apply</a>
+        </p> 
+    </div>
+    <script src="/javascript/contactnow.js"></script>
+</body>
+</html>
